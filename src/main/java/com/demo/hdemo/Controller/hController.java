@@ -21,12 +21,12 @@ public class hController {
 
     @GetMapping("/")
     public String home() {
-        return "Login";
+        return "pages/Login";
     }
 
     @GetMapping("/index")
     public String showLoginForm() {
-        return "index";
+        return "pages/index";
     }
 
     @PostMapping("/addStudent")
